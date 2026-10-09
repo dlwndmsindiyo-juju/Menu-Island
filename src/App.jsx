@@ -1,14 +1,19 @@
 import { useState } from "react";
-import heroImg from "./assets/hero.png";
 import "./App.css";
-import KakaoMap from "./components/KakaoMap";
+import Header from "./components/Header";
+import { Outlet, Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
+import Title from "./components/Title";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <KakaoMap />
+      <Header />
+
+      <Routes>
+        <Route path="/" element={<Title />} />
+      </Routes>
+      <Footer />
     </>
   );
 }
