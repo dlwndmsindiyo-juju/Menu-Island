@@ -100,7 +100,7 @@ const Canvas = () => {
       {/* 룰렛 상단 고정 화살표 */}
       <div className="pointer-arrow "></div>
       <div className="pointer">
-        <canvas ref={canvasRef} width={400} height={400} className="canvas" />
+        <canvas ref={canvasRef} width={350} height={350} className="canvas" />
       </div>
 
       <div className="mt-8">

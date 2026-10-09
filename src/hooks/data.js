@@ -15,4 +15,6 @@ export const data = [
   { name: "볶음밥", color: "#3b9ec0" },
   { name: "카레", color: "#ff6384" },
   { name: "김치찜", color: "#63beff" },
+  { name: "회덮밥", color: "#ff6384" },
+  { name: "삼겹살", color: "#ffb663" },
 ];

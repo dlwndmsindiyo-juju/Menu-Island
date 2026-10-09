@@ -204,7 +204,7 @@ const SelectCanvas = () => {
 
       {/* 캔버스 원판 */}
       <div className="relative">
-        <canvas ref={canvasRef} width={400} height={400} className="canvas" />
+        <canvas ref={canvasRef} width={350} height={350} className="canvas" />
       </div>
 
       {/* 돌리기 버튼 */}
