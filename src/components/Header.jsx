@@ -4,9 +4,12 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <header>
-      <h1 className="font-bold text-center text-4xl text-white bg-green-800 py-20">
-        <Link to="/">Menu Island</Link>
-      </h1>
+      <div className="inner flex">
+        <img src="/main-icon-img.svg" alt="menu island 아이콘 이미지" />
+        <h1 className="font-bold text-3xl">
+          <Link to="/">Menu Island</Link>
+        </h1>
+      </div>
     </header>
   );
 };

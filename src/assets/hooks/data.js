@@ -1,0 +1,18 @@
+export const data = [
+  { name: "A", color: "#ff6384" },
+  { name: "B", color: "#ffb663" },
+  { name: "C", color: "#63beff" },
+  { name: "D", color: "#b9ff63" },
+  { name: "E", color: "#e263ff" },
+  { name: "F", color: "#6863ff" },
+  { name: "G", color: "#3b9ec0" },
+  { name: "H", color: "#ff6384" },
+  { name: "I", color: "#ffb663" },
+  { name: "J", color: "#63beff" },
+  { name: "K", color: "#b9ff63" },
+  { name: "L", color: "#e263ff" },
+  { name: "M", color: "#ffb663" },
+  { name: "N", color: "#3b9ec0" },
+  { name: "O", color: "#ff6384" },
+  { name: "P", color: "#63beff" },
+];

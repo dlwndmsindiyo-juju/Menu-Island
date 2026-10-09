@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import { Outlet, Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Title from "./components/Title";
+import Canvas from "./components/Canvas";
 
 function App() {
   return (
@@ -11,7 +12,15 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/" element={<Title />} />
+        <Route
+          path="/"
+          element={
+            <>
+              <Title />
+              <Canvas />
+            </>
+          }
+        />
       </Routes>
       <Footer />
     </>
