@@ -15,10 +15,10 @@ const Header = () => {
         <nav className="gnb-list">
           <ul className="flex gap-4 font-bold">
             <li className="assign">
-              <Link to={"/assign"}>지정원판</Link>
+              <Link to={"/assign"}>지정메뉴</Link>
             </li>
             <li className="select">
-              <Link to={"/select"}>선택원판</Link>
+              <Link to={"/select"}>메뉴입력</Link>
             </li>
           </ul>
         </nav>

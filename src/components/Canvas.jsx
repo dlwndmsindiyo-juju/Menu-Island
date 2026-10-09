@@ -38,7 +38,7 @@ const Canvas = () => {
       ctx.translate(centerX, centerY);
       ctx.rotate(currentAngle + arc / 2);
       ctx.textAlign = "right";
-      ctx.fillStyle = "#111";
+      ctx.fillStyle = "#333";
       ctx.font = "bold 16px sans-serif";
       ctx.fillText(item.name, radius - 20, 10); // 상품 글자를 작성
       ctx.restore();
