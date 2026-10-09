@@ -7,7 +7,7 @@ export const data = [
   { name: "파스타", color: "#6863ff" },
   { name: "샌드위치", color: "#3b9ec0" },
   { name: "짜장면", color: "#ff6384" },
-  { name: "부리또", color: "#ffb663" },
+  { name: "곱창", color: "#ffb663" },
   { name: "짬뽕", color: "#63beff" },
   { name: "비빔밥", color: "#b9ff63" },
   { name: "라면", color: "#e263ff" },

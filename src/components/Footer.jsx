@@ -6,11 +6,14 @@ const Footer = () => {
       <div className="inner">
         <div className="footer-box">
           <strong>Menu Island</strong>
-          <p className="text-xs mt-2">
-            <span>Copyright &copy; 2026</span> <span>jueunLee.</span>
-            <span>All rights reserved.</span>
-          </p>
-          <p className="text-xs mt-2">dlwndmsindiyo@gmail.com</p>
+          <address>
+            <p className="text-xs mt-1">
+              <span>Copyright &copy; 2026 jueunLee. All rights reserved.</span>
+            </p>
+            <p className="text-xs mt-1">
+              <span>dlwndmsindiyo@gmail.com</span>
+            </p>
+          </address>
         </div>
       </div>
     </footer>

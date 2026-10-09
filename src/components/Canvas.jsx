@@ -95,6 +95,8 @@ const Canvas = () => {
 
   return (
     <div className="inner container py-10 flex flex-col justify-center items-center relative">
+      <h2 className="font-bold text-2xl mb-8">메뉴판을 돌려보세요.</h2>
+
       {/* 룰렛 상단 고정 화살표 */}
       <div className="pointer-arrow "></div>
       <div className="pointer">
