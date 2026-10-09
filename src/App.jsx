@@ -12,15 +12,8 @@ function App() {
       <Header />
 
       <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <Title />
-              <Canvas />
-            </>
-          }
-        />
+        <Route path="/" element={<Title />} />
+        <Route path="/assign" element={<Canvas />} />
       </Routes>
       <Footer />
     </>

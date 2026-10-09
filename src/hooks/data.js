@@ -1,0 +1,18 @@
+export const data = [
+  { name: "제육덮밥", color: "#ff6384" },
+  { name: "돈까스", color: "#ffb663" },
+  { name: "김밥", color: "#63beff" },
+  { name: "햄버거", color: "#b9ff63" },
+  { name: "떡볶이", color: "#e263ff" },
+  { name: "파스타", color: "#6863ff" },
+  { name: "샌드위치", color: "#3b9ec0" },
+  { name: "짜장면", color: "#ff6384" },
+  { name: "부리또", color: "#ffb663" },
+  { name: "짬뽕", color: "#63beff" },
+  { name: "비빔밥", color: "#b9ff63" },
+  { name: "라면", color: "#e263ff" },
+  { name: "초밥", color: "#ffb663" },
+  { name: "볶음밥", color: "#3b9ec0" },
+  { name: "카레", color: "#ff6384" },
+  { name: "김치찜", color: "#63beff" },
+];
